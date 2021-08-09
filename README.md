@@ -51,4 +51,4 @@ Since i am not too much into C# development my unit tests could be a bit lesss. 
 
 I also code that project on a Mac where it was a bit difficult to develop and setup dotnet project for me. Also for some reason donet did not accept my bulk message with \r\n new lines as a bash argument so this is why i decided to read message from a file called `.message`
 
-This project is ready for a CI/CD pipeline but i wish to have the config file of the pipeline inorder to express how good i am in e2e development.
+This project is ready for a CI/CD pipeline but i wish to have the config file of the pipeline inorder to express how reaady the project to e2e development.
