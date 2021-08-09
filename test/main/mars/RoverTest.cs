@@ -61,6 +61,20 @@ namespace test
         }
 
         [Test]
+        public void Move_Should_Return_3_3_W()
+        {
+            // given
+            Position p = new Position(new Point(4, 1), Direction.E);
+            rover.Position = p;
+
+            // when
+            rover.Move("MLMMLMMRRRR");
+
+            // then
+            Assert.AreEqual("3 3 W", rover.ToString());
+        }
+
+        [Test]
         public void Move_Should_Throw_ArgumentException_When_Movement_Not_Valid()
         {
             // given

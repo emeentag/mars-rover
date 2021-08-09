@@ -6,8 +6,10 @@ namespace Mars
     {
         static void Main(string[] args)
         {
+            String message = args[0];
+
             Cli cli = new Cli();
-            cli.Execute("5 5\n1 2 N\nLMLMLMLMM\n3 3 E\nMMRMMRMRRM");
+            cli.Execute(message);
         }
     }
 }
