@@ -2,9 +2,9 @@
 This project is created for moving a rover to a specific coordinate on a plateau of Mars.
 
 ## How it works:
-`.message`: This file contains your message for the movement information of the rover. You must provide plateau upper right coordinate at the first line and then you must provide your rovers current position and the movement info like below:
+`.message`: This file contains your message for the movement information of the rover. So first define your message. You must provide plateau upper right coordinate at the first line and then you must provide your rovers current position and the movement info like below:
 
-**MESSAGE 1:**
+**Message 1:**
 ```
 5 5
 1 2 N
@@ -17,7 +17,7 @@ MLMMLMMRRRR
 
 You can send more rover by appending lines  to that message. You rover message must contain the current position fo the rover and the movement info like down below:
 
-**MESSAGE 2:**
+**Message 2:**
 ```
 ...
 0 0 E
@@ -30,14 +30,14 @@ RRRMMM
 ### Run on local machine:
 `./mars.sh run`: This command will read your message from `.message` file and move the rovers according to it.
 
-**Expected output of the MESSAGE 1:**
+**Expected output of the Message 1:**
 ```
 1 3 N
 5 1 E
 3 3 W
 ```
 
-**Expected output of the MESSAGE 2:**
+**Expected output of the Message 2:**
 ```
 ...
 0 3 N
