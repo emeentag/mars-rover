@@ -1,0 +1,5 @@
+.vscode/
+src/main/mars/bin/
+src/main/mars/obj/
+test/main/mars/bin/
+test/main/mars/obj/
